@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.orders.ui.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_add_product"
+        android:name="com.example.orders.ui.AddProductFragment"
+        android:label="@string/title_add_product"
+        tools:layout="@layout/fragment_add_product" />
+
+    <fragment
+        android:id="@+id/navigation_add_product_type"
+        android:name="com.example.orders.ui.AddProductTypeFragment"
+        android:label="@string/title_add_product_type"
+        tools:layout="@layout/fragment_add_product_type" />
+
+    <fragment
+        android:id="@+id/navigation_delete_product"
+        android:name="com.example.orders.ui.DeleteProductFragment"
+        android:label="@string/title_delete_product"
+        tools:layout="@layout/fragment_delete_product" />
+
+    <fragment
+        android:id="@+id/navigation_delete_product_type"
+        android:name="com.example.orders.ui.DeleteProductTypeFragment"
+        android:label="@string/title_delete_product_type"
+        tools:layout="@layout/fragment_delete_product_type" />
+</navigation>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Orders</string>
+    <string name="add_product">Ավելացնել ապրանք</string>
+    <string name="ok">Օկ</string>
+    <string name="add_product_type">Ավելացնել բաժին</string>
+    <string name="delete_product">Ջնջել ապրանքը</string>
+    <string name="delete_product_type">Ջնջել բաժինը</string>
+    <string name="title_activity_bottom_navigation">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_add_product">Add Product</string>
+    <string name="title_add_product_type">Add Product Type</string>
+    <string name="title_delete_product">Delete Product</string>
+    <string name="title_delete_product_type">Delete Product Type</string>
+</resources>

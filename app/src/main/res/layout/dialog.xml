@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="8dp"
+    android:elevation="6dp">
+
+    <TextView
+        android:id="@+id/tv_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Դուք վստահ եք?"
+        android:textSize="20sp"
+        android:layout_marginTop="15sp"/>
+
+    <Button
+        android:id="@+id/btn_dialog_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="այո"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="5sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dialog"
+        android:background="@drawable/button_background"/>
+
+    <Button
+        android:id="@+id/btn_dialog_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="փակել"
+        app:layout_constraintEnd_toStartOf="@id/btn_dialog_ok"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="10sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dialog"
+        android:background="@drawable/button_background"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
